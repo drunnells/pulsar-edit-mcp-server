@@ -33,6 +33,13 @@ Your LLM MCP Client will need to have the below mcpServers configuration.
 - **Move Cursor** - Move cursor to a row/column location in the editor.
 - **Select Range** - Select a range of text (start row/col, end row/col).
 - **Insert Text** - Insert text at the current cursor position.
+- **Get Selection** - Get the selected text
+- **Get File** - Get the content of the entire current file
+- **Get Line Count** - Get the total number of lines in the current file
+- **Get Filename** - Get the filename of the current file
+- **Get Full Path** - Get the full path of the current file
+- **Get Project Files** - Get all project files in the current project
+- **Open File** - Open a file (or move to that file's tab if already open)
 
 ## Background
 I've written a quick [blog post](https://dev.to/drunnells/creating-an-mcp-server-for-the-pulsar-editor-1m5) around my motivations and some of the challenges that I initially encountered.
