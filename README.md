@@ -15,7 +15,7 @@ You will see a "**MCP:On**" tile in the lower left of the Pulsar editor.
 
 Your LLM MCP Client will need to have the below mcpServers configuration.
 
-## mcpServers JSON:
+### mcpServers JSON:
 ```json
 {
         "mcpServers": {
@@ -33,6 +33,9 @@ Your LLM MCP Client will need to have the below mcpServers configuration.
 - **Move Cursor** - Move cursor to a row/column location in the editor.
 - **Select Range** - Select a range of text (start row/col, end row/col).
 - **Insert Text** - Insert text at the current cursor position.
+
+## Background
+I've written a quick [blog post](https://dev.to/drunnells/creating-an-mcp-server-for-the-pulsar-editor-1m5) around my motivations and some of the challenges that I initially encountered.
 
 # Contributing
 This project is still in its very early stages. I'm hoping to turn it into something useful one day. If you’re interested in helping shape it, any contribution is welcome and appreciated!
