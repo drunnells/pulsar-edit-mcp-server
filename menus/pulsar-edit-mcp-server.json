@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "MCP Listen",
+        "command": "pulsar-edit-mcp-server:listen"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "MCP Server",
+          "submenu": [
+            {
+              "label": "Listen",
+              "command": "pulsar-edit-mcp-server:listen"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

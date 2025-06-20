@@ -1,0 +1,33 @@
+{
+  "name": "pulsar-edit-mcp-server",
+  "main": "./lib/pulsar-edit-mcp-server",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "This is a Pulsar Editor MCP",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "pulsar-edit-mcp-server:listen"
+  },
+  "repository": "https://github.com/drunnells/pulsar-edit-mcp-server",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "patch-package": "^8.0.0"
+  },
+  "scripts": {
+    "postinstall": "patch-package"
+  }
+}

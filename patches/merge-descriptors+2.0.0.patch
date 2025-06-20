@@ -1,0 +1,14 @@
+diff --git a/node_modules/merge-descriptors/index.js b/node_modules/merge-descriptors/index.js
+index 51228e5..2f73044 100644
+--- a/node_modules/merge-descriptors/index.js
++++ b/node_modules/merge-descriptors/index.js
+@@ -10,7 +10,8 @@ function mergeDescriptors(destination, source, overwrite = true) {
+ 	}
+ 
+ 	for (const name of Object.getOwnPropertyNames(source)) {
+-		if (!overwrite && Object.hasOwn(destination, name)) {
++		//if (!overwrite && Object.hasOwn(destination, name)) {
++		if (!overwrite && Object.prototype.hasOwnProperty.call(destination, name) ) {
+ 			// Skip descriptor
+ 			continue;
+ 		}

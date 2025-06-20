@@ -1,0 +1,26 @@
+diff --git a/node_modules/router/index.js b/node_modules/router/index.js
+index 4358aeb..4334712 100644
+--- a/node_modules/router/index.js
++++ b/node_modules/router/index.js
+@@ -14,7 +14,7 @@
+ 
+ const isPromise = require('is-promise')
+ const Layer = require('./lib/layer')
+-const { METHODS } = require('node:http')
++const { METHODS } = require('http')
+ const parseUrl = require('parseurl')
+ const Route = require('./lib/route')
+ const debug = require('debug')('router')
+diff --git a/node_modules/router/lib/route.js b/node_modules/router/lib/route.js
+index 1887d78..8c5c877 100644
+--- a/node_modules/router/lib/route.js
++++ b/node_modules/router/lib/route.js
+@@ -14,7 +14,7 @@
+ 
+ const debug = require('debug')('router:route')
+ const Layer = require('./layer')
+-const { METHODS } = require('node:http')
++const { METHODS } = require('http')
+ 
+ /**
+  * Module variables.
