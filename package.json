@@ -1,7 +1,7 @@
 {
   "name": "pulsar-edit-mcp-server",
   "main": "./lib/pulsar-edit-mcp-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "This is a Pulsar Editor MCP",
   "keywords": [],

@@ -1,5 +1,9 @@
 # Pulsar Edit MCP Server
 
+| :warning: WARNING          |
+|:---------------------------|
+| Very experimental and incomplete. Use at your own risk!         |
+
 This is an *early* attempt at making an MCP server to control the [Pulsar](https://github.com/pulsar-edit) editor. The goal is to enable an LLM to assist with software development in Pulsar using a tool like [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) as a chat client.
 
 <img src="https://github.com/user-attachments/assets/e31549e2-e04c-4b67-9b33-90fc20c25d00" width="700" />
@@ -40,6 +44,10 @@ Your LLM MCP Client will need to have the below mcpServers configuration.
 - **Get Full Path** - Get the full path of the current file
 - **Get Project Files** - Get all project files in the current project
 - **Open File** - Open a file (or move to that file's tab if already open)
+- **Delete Line** - Delete a single line
+- **Delete Line Range** - Delete a range of lines
+- **Insert Line** - Insert a blank line at row
+- **Get Line Length** - Get number of characters on row
 
 ## Background
 I've written a quick [blog post](https://dev.to/drunnells/creating-an-mcp-server-for-the-pulsar-editor-1m5) around my motivations and some of the challenges that I initially encountered.
