@@ -41,7 +41,7 @@ Your LLM MCP Client will need to have the below mcpServers configuration.
 - **Insert Line** - Insert a blank line at row
 - **Delete Line** - Delete a single line
 - **Delete Line Range** - Delete a range of lines
-- - **Get Selection** - Get the selected text
+- **Get Selection** - Get the selected text
 - **Get Document** - Get the content of the entire current file
 - **Get Line Count** - Get the total number of lines in the current file
 - **Get Filename** - Get the filename of the current file
