@@ -22,7 +22,8 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.13.0",
-    "zod": "^3.25.67"
+    "zod": "^3.25.67",
+    "diff": "^8.0.2"
   },
   "devDependencies": {
     "patch-package": "^8.0.0"
