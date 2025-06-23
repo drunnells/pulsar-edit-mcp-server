@@ -15,7 +15,7 @@
           "label": "MCP Server",
           "submenu": [
             {
-              "label": "Listen",
+              "label": "Toggle On/Off",
               "command": "pulsar-edit-mcp-server:listen"
             }
           ]
