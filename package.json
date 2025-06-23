@@ -1,7 +1,7 @@
 {
   "name": "pulsar-edit-mcp-server",
   "main": "./lib/pulsar-edit-mcp-server",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "description": "This is a Pulsar Editor MCP",
   "keywords": [],
@@ -22,7 +22,8 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.13.0",
-    "zod": "^3.25.67"
+    "zod": "^3.25.67",
+    "diff": "^8.0.2"
   },
   "devDependencies": {
     "patch-package": "^8.0.0"
