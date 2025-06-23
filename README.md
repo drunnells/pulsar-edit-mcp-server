@@ -34,20 +34,22 @@ Your LLM MCP Client will need to have the below mcpServers configuration.
 ```
 
 ## Supported commands
-- **Move Cursor** - Move cursor to a row/column location in the editor.
-- **Select Range** - Select a range of text (start row/col, end row/col).
-- **Insert Text** - Insert text at the current cursor position.
-- **Get Selection** - Get the selected text
-- **Get File** - Get the content of the entire current file
+- **Replace Text** - Search the active editor for `query` and replace it with `replacement`.
+- **Get Context Around** - Return up-to `radiusLines` lines before and after the *N-th* match of `query` in the active editor. Useful for content-aware edits.
+- **Find Text** - Search the active editor for a substring or regular expression and return the positions of each occurrence (up to `maxMatches`).
+- **Apply Patch** - Apply a unified-diff or Git-style patch to the active editor.
+- **Insert Line** - Insert a blank line at row
+- **Delete Line** - Delete a single line
+- **Delete Line Range** - Delete a range of lines
+- - **Get Selection** - Get the selected text
+- **Get Document** - Get the content of the entire current file
 - **Get Line Count** - Get the total number of lines in the current file
 - **Get Filename** - Get the filename of the current file
 - **Get Full Path** - Get the full path of the current file
 - **Get Project Files** - Get all project files in the current project
 - **Open File** - Open a file (or move to that file's tab if already open)
-- **Delete Line** - Delete a single line
-- **Delete Line Range** - Delete a range of lines
-- **Insert Line** - Insert a blank line at row
-- **Get Line Length** - Get number of characters on row
+- **Undo** - Undo the last change in the editor
+- **Redo** - Redo the last undo in the editor
 
 ## Background
 I've written a quick [blog post](https://dev.to/drunnells/creating-an-mcp-server-for-the-pulsar-editor-1m5) around my motivations and some of the challenges that I initially encountered.
