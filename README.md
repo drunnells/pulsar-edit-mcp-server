@@ -6,7 +6,7 @@
 
 This is an *early* attempt at making an MCP server to control the [Pulsar](https://github.com/pulsar-edit) editor. The goal is to enable an LLM to assist with software development in Pulsar using a tool like [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) as a chat client.
 
-<img src="https://github.com/user-attachments/assets/e31549e2-e04c-4b67-9b33-90fc20c25d00" width="700" />
+<img src="https://github.com/user-attachments/assets/5e796c45-c0e8-4e15-a9db-1b5dcb27057d" width="700" />
 
 ## Installation:
 ```sh
