@@ -37,15 +37,16 @@ Your LLM MCP Client will need to have the below mcpServers configuration.
 - **Replace Text** - Search the active editor for `query` and replace it with `replacement`.
 - **Get Context Around** - Return up-to `radiusLines` lines before and after the *N-th* match of `query` in the active editor. Useful for content-aware edits.
 - **Find Text** - Search the active editor for a substring or regular expression and return the positions of each occurrence (up to `maxMatches`).
-- **Apply Patch** - Apply a unified-diff or Git-style patch to the active editor.
+- **Replace Document** - Replace entire contents of the document
 - **Insert Line** - Insert a blank line at row
 - **Delete Line** - Delete a single line
 - **Delete Line Range** - Delete a range of lines
 - **Get Selection** - Get the selected text
-- **Get Document** - Get the content of the entire current file
-- **Get Line Count** - Get the total number of lines in the current file
-- **Get Filename** - Get the filename of the current file
-- **Get Full Path** - Get the full path of the current file
+- **Get Document** - Get an array of each line in the document with line numbers
+- **Get Raw Document** - Get the raw content of the entire current document
+- **Get Line Count** - Get the total number of lines in the current document
+- **Get Filename** - Get the filename of the current document
+- **Get Full Path** - Get the full path of the current document
 - **Get Project Files** - Get all project files in the current project
 - **Open File** - Open a file (or move to that file's tab if already open)
 - **Undo** - Undo the last change in the editor
