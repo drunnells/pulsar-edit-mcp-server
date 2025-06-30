@@ -30,5 +30,19 @@
   },
   "scripts": {
     "postinstall": "patch-package"
+  },
+  "configSchema": {
+    "apiEndpoint": {
+      "type": "string",
+      "default": "",
+      "title": "OpenAI API Endpoint",
+      "description": "The API endpoint your package will use"
+    },
+    "apiKey": {
+      "type": "string",
+      "default": "",
+      "title": "API Key",
+      "description": "The API key for authenticating requests"
+    }
   }
 }

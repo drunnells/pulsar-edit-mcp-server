@@ -12,10 +12,10 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "MCP Server",
+          "label": "MCP Srv and LLM Chat",
           "submenu": [
             {
-              "label": "Toggle On/Off",
+              "label": "Toggle Server On/Off",
               "command": "pulsar-edit-mcp-server:listen"
             }
           ]

@@ -43,7 +43,6 @@ Your LLM MCP Client will need to have the below mcpServers configuration.
 - **Delete Line Range** - Delete a range of lines
 - **Get Selection** - Get the selected text
 - **Get Document** - Get an array of each line in the document with line numbers
-- **Get Raw Document** - Get the raw content of the entire current document
 - **Get Line Count** - Get the total number of lines in the current document
 - **Get Filename** - Get the filename of the current document
 - **Get Full Path** - Get the full path of the current document
