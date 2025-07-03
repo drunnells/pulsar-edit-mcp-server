@@ -4,7 +4,13 @@
 |:---------------------------|
 | Very experimental and incomplete. Use at your own risk!         |
 
-This is an *early* attempt at making an MCP server to control the [Pulsar](https://github.com/pulsar-edit) editor. The goal is to enable an LLM to assist with software development in Pulsar using a tool like [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) as a chat client.
+This is an *early* attempt at making an MCP server to control the [Pulsar](https://github.com/pulsar-edit) editor. The goal is to enable an LLM to assist with software development in Pulsar using a built in chat or a tool like [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) as a chat client.
+
+**Built in chat:**
+
+<img src="https://github.com/user-attachments/assets/83115766-6634-40ee-b593-8b36b9d93cc9" width="700" />
+
+**AnythingLLM chat:**
 
 <img src="https://github.com/user-attachments/assets/5e796c45-c0e8-4e15-a9db-1b5dcb27057d" width="700" />
 
