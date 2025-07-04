@@ -1,7 +1,7 @@
 {
   "name": "pulsar-edit-mcp-server",
   "main": "./lib/pulsar-edit-mcp-server",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "module",
   "description": "This is a Pulsar Editor MCP",
   "keywords": [],
@@ -35,17 +35,26 @@
     "postinstall": "patch-package"
   },
   "configSchema": {
+    "mcpServerPort": {
+      "type": "integer",
+      "default": 3000,
+      "title": "MCP Server Port",
+      "description": "Listen on this port for MCP requests from your LLM client",
+      "order": 1
+    },
     "apiEndpoint": {
       "type": "string",
       "default": "",
       "title": "OpenAI API Endpoint",
-      "description": "The API endpoint your package will use"
+      "description": "The OpenAI compatible API completions endpoint of your LLM when using the built-in chat",
+      "order": 2
     },
     "apiKey": {
       "type": "string",
       "default": "",
       "title": "API Key",
-      "description": "The API key for authenticating requests"
+      "description": "The API key for authenticating requests when using the built-in chat",
+      "order": 3
     }
   }
 }
