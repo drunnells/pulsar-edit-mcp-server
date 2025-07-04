@@ -1,7 +1,7 @@
 {
   "name": "pulsar-edit-mcp-server",
   "main": "./lib/pulsar-edit-mcp-server",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "type": "module",
   "description": "This is a Pulsar Editor MCP",
   "keywords": [],
@@ -42,11 +42,11 @@
       "description": "Listen on this port for MCP requests from your LLM client",
       "order": 1
     },
-    "apiEndpoint": {
+    "apiEndpointPrefix": {
       "type": "string",
-      "default": "",
+      "default": "https://api.openai.com",
       "title": "OpenAI API Endpoint",
-      "description": "The OpenAI compatible API completions endpoint of your LLM when using the built-in chat",
+      "description": "The OpenAI compatible API completions endpoint prefix of your LLM when using the built-in chat.\n(Everything before /v1/chat/completions)",
       "order": 2
     },
     "apiKey": {
