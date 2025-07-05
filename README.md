@@ -45,6 +45,7 @@ Your LLM MCP Client will need to have the below mcpServers configuration.
 - **Find Text** - Search the active editor for a substring or regular expression and return the positions of each occurrence (up to `maxMatches`).
 - **Replace Document** - Replace entire contents of the document
 - **Insert Line** - Insert a blank line at row
+- **Insert Text At Line** - Insert a block of text at the specified line number, shifting existing text down. Prefer replace-document for large edits.
 - **Delete Line** - Delete a single line
 - **Delete Line Range** - Delete a range of lines
 - **Get Selection** - Get the selected text
