@@ -1,10 +1,10 @@
-# Pulsar Edit MCP Server
+# Pulsar Edit MCP Server & LLM Coding Assistant
 
 | :warning: WARNING          |
 |:---------------------------|
 | Very experimental and incomplete. Use at your own risk!         |
 
-This is an *early* attempt at making an MCP server to control the [Pulsar](https://github.com/pulsar-edit) editor. The goal is to enable an LLM to assist with software development in Pulsar using a built in chat or a tool like [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) as a chat client.
+This is an *early* attempt at making an MCP server and chat assistant to control the [Pulsar](https://github.com/pulsar-edit) editor. The goal is to enable an LLM to assist with software development in Pulsar using a built in chat or a tool like [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) as a chat client.
 
 **Built in chat:**
 
