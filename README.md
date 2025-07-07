@@ -4,11 +4,11 @@
 |:---------------------------|
 | Very experimental and incomplete. Use at your own risk!         |
 
-This is an *early* attempt at making an MCP server and chat assistant to control the [Pulsar](https://github.com/pulsar-edit) editor. The goal is to enable an LLM to assist with software development in Pulsar using a built in chat or a tool like [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) as a chat client.
+This is an *early* attempt at making an MCP server and chat assistant to control the [Pulsar](https://github.com/pulsar-edit) editor. The goal is to enable an LLM to assist with software development in Pulsar using the built in chat panel or a tool like [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) as a chat client.
 
 **Built in chat:**
 
-<img src="https://github.com/user-attachments/assets/83115766-6634-40ee-b593-8b36b9d93cc9" width="700" />
+<img src="https://github.com/user-attachments/assets/52c74f89-d76f-4faa-9265-009bdc78c32c" width="700" />
 
 **AnythingLLM chat:**
 
@@ -23,9 +23,12 @@ After the Pulsar package is installed, set the MCP server to lisen in **Packages
 
 You will see a "**MCP:On**" tile in the lower left of the Pulsar editor.
 
-Your LLM MCP Client will need to have the below mcpServers configuration.
+### Settings
+<img src="https://github.com/user-attachments/assets/a5529835-919d-4c24-8c26-1eb3a904a1b7" width="300" />
 
 ### mcpServers JSON:
+If you are using a 3rd party LLM client instead of the built-in chat, your client will need to have the below mcpServers configuration.
+
 ```json
 {
         "mcpServers": {
