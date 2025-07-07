@@ -13,11 +13,36 @@
   justify-content: space-between;
   align-items: center;
   padding: 5px;
+  height: 3em;
   background-color: @base-background-color;
 }
 
 .top-button {
   margin: 0 5px;
+}
+
+.chat-panel .thinking-indicator {
+  display: flex;
+  align-items: center;
+}
+
+.chat-panel .thinking-icon {
+  width: 2.4em;
+  height: 2.4em;
+  overflow: hidden;
+  background-image: url("atom://pulsar-edit-mcp-server/assets/thinking_spritesheet.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 600% 100%;
+}
+
+@keyframes thinking-sprite {
+  0%   { background-position:   0% 0; }
+  100% { background-position: 100% 0; }
+}
+
+.chat-panel .thinking-icon.is-animating {
+  animation: thinking-sprite 0.8s steps(5) infinite;
 }
 
 .message         { margin-bottom: .4rem; }
